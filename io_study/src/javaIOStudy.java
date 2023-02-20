@@ -1,12 +1,16 @@
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class javaIOStudy {
 	public static void main(String[] args) throws IOException {
 		FileInputStream fis = null; // 입력스티림
 		FileOutputStream fos = null; // 출력스트림
 
-		fis = new FileInputStream("javaIOStudy.txt"); // 존재하는 파일과 연결
-		fos = new FileOutputStream("result.txt"); // 존재하지 않으면 파일 생성 / 존재하면 파일 덮어쓰기
+		fis = new FileInputStream("prac.txt"); // 존재하는 파일과 연결
+		fos = new FileOutputStream("result_byte.txt"); // 존재하지 않으면 파일 생성 / 존재하면 파일 덮어쓰기
 
 		BufferedInputStream bis = new BufferedInputStream(fis);
 		BufferedOutputStream bos = new BufferedOutputStream(fos);
