@@ -1,14 +1,12 @@
-package immutableObject_study;
-
 public class Main {
 
 	public static void main(String[] args) {
 
 		String abc = "";
 		StringBuilder sb = new StringBuilder();
-		StringBuffer sb1;
 
-		System.out.println("-----------------------------<String 객체와 StringBuilder 비교 시작>-----------------------------");
+		System.out
+				.println("-----------------------------<String 객체와 StringBuilder 비교 시작>-----------------------------");
 		for (int i = 0; i < 10; i++) {
 			sb.append(i);
 			abc += i;
@@ -21,6 +19,6 @@ public class Main {
 		}
 		System.out.println("-----------------------------<String 객체와 StringBuilder 비교 끝>-----------------------------");
 
-	}	// main method
+	} // main method
 
-}	// Main class
+} // Main class
