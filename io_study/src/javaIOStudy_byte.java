@@ -9,8 +9,8 @@ public class javaIOStudy_byte {
 		FileInputStream fis = null; // 입력스티림
 		FileOutputStream fos = null; // 출력스트림
 
-		fis = new FileInputStream("prac.txt"); // 존재하는 파일과 연결
-		fos = new FileOutputStream("result_byte.txt"); // 존재하지 않으면 파일 생성 / 존재하면 파일 덮어쓰기
+		fis = new FileInputStream("io_study/prac_byte.txt"); // 존재하는 파일과 연결
+		fos = new FileOutputStream("io_study/result_byte.txt"); // 존재하지 않으면 파일 생성 / 존재하면 파일 덮어쓰기
 
 		BufferedInputStream bis = new BufferedInputStream(fis);
 		BufferedOutputStream bos = new BufferedOutputStream(fos);
