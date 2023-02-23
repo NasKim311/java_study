@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class javaIOStudy {
+public class javaIOStudy_byte {
 	public static void main(String[] args) throws IOException {
 		FileInputStream fis = null; // 입력스티림
 		FileOutputStream fos = null; // 출력스트림
